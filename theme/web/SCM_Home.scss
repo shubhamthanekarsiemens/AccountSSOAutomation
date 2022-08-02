@@ -1,0 +1,46 @@
+.TileDescription{
+    min-height: 58px;
+}
+.container1_custom{
+    margin-left: 0px;
+    width: 355px;
+    height: 58px;
+    background-color: #f0f0f0;
+    :hover{
+        background-color: #cde6eb;
+    }
+    .mx-name-layoutGrid3{
+        .row{
+            margin-left: 0px;
+            width: 355px;
+            height: 60px;
+        }
+
+    }
+}
+
+.SupplierName{
+    // width: 268px;
+    // height: 24px;
+    // background-color: rgba(255, 255, 255, 0);
+    // box-sizing: border-box;
+    font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    font-weight: 700;
+    color: #1e1e1e;
+    text-align: left;
+    line-height: 24px;
+    display: block;
+    margin-left: 10px;
+}
+
+.SupplierSummary{
+    // width: 268px;
+    // height: 25px;
+    // background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    color: #464646;
+    text-align: left;
+    line-height: 5px;
+    display: block;
+}

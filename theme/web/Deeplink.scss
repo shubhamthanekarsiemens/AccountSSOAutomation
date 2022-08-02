@@ -1,0 +1,36 @@
+.CustomBtnProperties{
+    width: 53px;
+    border: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: #464646;
+    text-align: left;
+    line-height: normal;
+    padding-left: 12px;
+    font-size: 12px;
+    
+    color: #585858;
+    img{
+        margin-left: 4px;
+        display: block !important;
+    }
+}
+.DeleteBtnCustom{
+    width: 53px;
+    border: none;
+    font-family: 'Segoe UI', sans-serif;
+    color: #464646;
+    text-align: left;
+    line-height: normal;
+    font-size: 12px;
+    padding-left: 9px ;
+    img{
+        margin-left: 6px;
+        display: block !important;
+    }
+}
+.CustomLayout .mx-placeholder .mx-scrollcontainer .mx-scrollcontainer-center .mx-scrollcontainer-wrapper .mx-scrollcontainer .mx-scrollcontainer-middle .mx-scrollcontainer-wrapper{
+    overflow:hidden !important;
+    height: 37px;
+}
+
+

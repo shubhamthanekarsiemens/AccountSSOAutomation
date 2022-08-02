@@ -1,0 +1,70 @@
+.radiobtnCustom{
+    .col-sm-9{
+        .mx-radiogroup{
+            .radio{
+                input::before{
+                    top:14.5px;
+                    left:4px;
+                }
+            }
+        }
+    }
+}
+
+.customTextInput{
+    border: none;
+    input {
+        width: 330px;
+        height: 32px;
+        font-size: 12px;
+        border-radius: 2px;
+        border: 1px solid #969696;
+        background-color: rgba(255, 255, 255, 0);
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+        color: white;
+        text-align: left;
+    }
+    input:focus{
+        background-color: rgba(255, 255, 255, 0);
+        border-color: rgba(59, 177, 190, 0.99);
+    }
+}
+.generateOtpOriginalPosition{
+    width: 120px !important;
+}
+.generateOtpGoogle{
+    width: 115px !important;
+    position: relative;
+    top: 80px;
+    right: 85px;
+    left: 0px !important;
+}
+.generateOtp{
+    width: 115px !important;
+    position: relative;
+    top: 80px;
+    right: 85px;
+    
+}
+.forgotpwdcustom{
+    position: relative;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 700;
+    color: #197fa2;
+    text-align: left;
+    line-height: normal;
+}
+.forgotpwdcustom:focus{
+    text-decoration: none !important;
+}
+.forgotpwdcustom:hover{
+    text-decoration: none !important;
+}
+.LoginButtonCustom{
+    position: relative;
+    top: -11px;
+    left: 10px;
+}

@@ -1,0 +1,11 @@
+{
+    "ServiceOperation": "Core-2006-03-FileManagement/getFileReadTickets",
+    "InputType":        "TcConnector.Dataset",
+    "ResponseType":     "TcConnector.TicketResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+	files:["$Input\/TcConnector.ref_list"]
+},
+    "OperationResponse": "$Response\/tickets"
+}

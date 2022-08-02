@@ -1,0 +1,34 @@
+{
+  "ServiceOperation": "Core-2009-10-DataManagement/getItemFromAttribute",
+  "InputType": "SecondModule.GetItemFromAttributeInput",
+  "ResponseType": "SecondModule.GetItemFromAttributeResponse",
+  "ObjectMapping": "",
+  "OperationInput": 
+  {
+     "infos":
+     [{
+        "itemAttributes":
+         {
+            "item_id": "$Input\/ItemId"
+         },
+         "revIds": []
+     }],
+     "nRev": -1,
+     "pref":
+       {
+         "prefs":
+         [{
+            "relationTypeName": "TC_Attaches",
+            "objectTypeNames": []
+         }]
+       }
+  }
+ ,
+	"OperationResponse": {
+		"output": [{
+		    "item": "IModelObject",
+            "itemRevOutput":		  "$Response\/SecondModule.itemRevOutput"
+				
+			       }]
+	}
+}

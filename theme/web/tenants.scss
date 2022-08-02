@@ -1,0 +1,30 @@
+.tenantoverview__templategrid{
+    margin-top: 15px;
+    margin-right: 10px !important;
+}
+
+.tenantoverview__templategrid .mx-grid-controlbar{
+    border: none;
+}
+
+.tenantoverview__templategrid .mx-grid-content .mx-templategrid-content-wrapper .mx-templategrid-row .mx-templategrid-item:hover{
+    background-color: white;
+}
+
+.tenantoverview__templategrid .mx-templategrid-item{
+    padding-bottom: 5px;
+    background-color: #FFF;
+    border-left-color: #00698d;
+    border-left-width: 20px;
+    padding-left: 0px  !important;
+
+}
+.tenantoverview__templategrid .mx-grid-content .mx-templategrid-content-wrapper .mx-templategrid-row .mx-templategrid-item .mx-dataview .mx-dataview-content .spacing-inner-left-large{
+    padding-left: 11px !important;
+}
+
+
+.tenantoverview__templategrid .mx-templategrid-item{
+    padding-top:10px;
+    padding-right: 10px;
+}

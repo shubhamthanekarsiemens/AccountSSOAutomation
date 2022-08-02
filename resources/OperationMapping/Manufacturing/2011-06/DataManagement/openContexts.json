@@ -1,0 +1,26 @@
+{
+	"ServiceOperation": "Manufacturing-2011-06-DataManagement\/openContexts",
+	"InputType": "TcConnector.ModelObject",
+	"ResponseType": "FactoryOrchestrator.OpenContextsResponse",
+	"ObjectMapping": "",
+	"OperationInput": {
+		"input":
+		[{
+			"object": "$Input",
+			"openViews": true,
+			"openAssociatedContexts": true,
+			"contextSettings": {
+				"type": "String",
+				"stringProps": {
+					"": ""
+				}
+			}
+		}]
+	},
+	"OperationResponse": {
+		"output":
+		[{
+			"contexts": "$Response\/FactoryOrchestrator.OpenContextsContext_OpenContextsResponse"		
+		}]
+	}
+}

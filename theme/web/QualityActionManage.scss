@@ -1,0 +1,289 @@
+@media only screen and (min-width:991px) {
+.popupPage{
+    top: 50px !important;
+    left: 1575px !important;
+    width: 400px;
+    
+}
+.PopUpUserList{
+    top: 50px !important;
+    left: 1540px !important;
+    width: 460px;
+    min-height: 650px !important;
+    max-height: 650px !important;
+}
+.popupPage.mx-window-active {
+    transform: translateX(0) !important;
+}
+.popupPage{
+    .mx-window-content{
+        .mx-window-header{
+            height: 5px !important;
+            background-color: white;
+            .close{
+               color: black !important;
+               font-size: 25px;
+                margin-top: 14px;
+            }
+        }
+    }
+}
+.chartFilterDropDown{
+    margin-top: 10px;
+}
+.chartContainer{
+    width: 660px !important;
+    height: 660px !important;
+}
+
+.AssignUserBtn{
+    width: 216px;
+    border: none;
+    color: black;
+    background-color: white;
+    margin-left: -26px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #464646;
+    text-align: center;
+    line-height: normal;
+    font-size: 15px;
+}
+
+.leftArrowImage{
+    width: 12px !important;
+    margin-top: 5px;
+    margin-left: -10px;
+}
+
+.layoutGridCustom:hover{
+    background-color: #D9E7ED;
+    
+}
+.AssignUserBtn:hover{
+    background-color: #D9E7ED !important;
+}
+.AssignUserImage{
+    width: 24px;
+}
+.AssignUserText{
+    font-size: 14px !important;
+    margin-left: -20px;
+}
+.datagrid2Custom{
+    width: 350px;
+    margin-left: 40px;
+    .table{
+        .table-content{
+            margin-top: 20px;
+           
+            .tr{
+                .td{
+                    border: none;                   
+                }
+                .th{
+                    display: none;
+                    .column-container{
+                        .column-header{
+                            display:none !important;
+                        }
+                    }
+                }
+                :hover{
+                    background-color: #D9E7ED !important;
+                }    
+            }
+        }    
+    }   
+}
+.textFilterCustom{
+    width: 295px;
+    height: 30px !important;
+    box-shadow: 1px 1px #888888;
+    font-family: 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    .form-control:focus{
+        border-color: grey !important;
+    }
+    .filter-selector{
+        .filter-selector-content{
+            .btn{
+                display: none !important;
+            }
+        }
+    }
+}
+
+.AssignBtn{
+    height: 29px;
+    padding: 2px 8px 2px 9px;
+    border-radius: 2px;
+    background-color: rgb(0, 95, 135);
+    box-sizing: border-box;
+    box-shadow: rgb(0 0 0 / 60%) 0px 1px 2px 0px;
+    font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: normal;
+    width: 310px;
+    margin-left: 40px;
+    //margin-top: 380px;
+    font-size: 14px;
+}
+.textFilterCustomForColum{
+    display: none;
+}
+
+.Filter_switch_QA{
+
+    .widget-switch{
+        z-index: 1;
+        margin-bottom: -150px;
+    }
+    .widget-switch-btn-wrapper{
+        height: 10px !important;    
+        width: 10px !important;
+        margin-left: 5px;
+        margin-bottom: -50px;
+    }
+    .widget-switch-btn.right{
+        display: none;
+    }
+    .widget-switch-btn.left{
+        width: 0px !important;
+    }
+}
+}
+@media only screen and (min-width:768px){
+    .leftPaneCustom{
+        width: 360px !important;
+        height: 810px !important;
+        background-color: #ffffff;
+    }
+}
+.OpenImg{
+    display: none;
+}
+.EmptyImage{
+    display: table;
+    min-width: 30px;
+    min-height: 24px;
+}
+.tableRow:hover{
+    background-color: #cde6eb;
+    .OpenImg{
+        display: table;
+        width: 30px;    
+    }
+    .EmptyImage{
+        display: none;
+    }
+}
+
+
+.Filter_switch_QA{
+
+    .widget-switch{
+    z-index: 1;
+    margin-bottom: -150px;
+   
+}
+.widget-switch-btn-wrapper{
+    height: 10px !important;    
+    width: 10px !important;
+    margin-left: 5px;
+    margin-bottom: -50px;
+}
+.widget-switch-btn.right{
+    display: none;
+    
+}
+.widget-switch-btn.left{
+    width: 0px !important;
+}
+}
+
+.chartByLabel{
+    width: 70px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    font-weight: 600;
+    color: #1e1e1e;
+    text-align: left;
+    line-height: normal;
+}
+.chartFilterDropDown{
+    width: 250px;
+    min-width: 250px;
+    .mx-compound-control{
+        .form-control{
+            min-height: 24px !important;
+            height: 34px;
+            background-color: rgb(255, 255, 255);
+            font-size: 14px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            padding-left: 4px;
+            font-family: 'Segoe UI Regular', 'Segoe UI', sans-serif;
+            
+        }
+        .form-control:focus{
+            border-color: grey !important;
+        }
+    }
+    
+}
+.layoutGrid5Custom{
+    margin-left:20px !important;
+}
+
+
+.headings{
+    display: inline-block;
+}
+.qa_Info_Box{
+    font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+}
+.qa_info_details{
+    font-family: "Segoe UI Regular", "Segoe UI", sans-serif;
+    font-size: 13.5px;
+}
+
+.tableCustom1{
+    margin-left: -30px;
+    line-height: 1px;
+    tbody{
+        tr{
+            td{
+                border:none;
+            }
+        }
+    }
+}
+
+.customBtn2{
+    margin-left: 0px !important;
+    width: 50px !important;
+    img{
+        margin-left: 1px;
+    }
+}
+.resetBtn{
+    width: 105px;
+    height: 35px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    border: 1px solid #005f87;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    font-weight: 600;
+    color: #005f87;
+    text-align: center;
+    line-height: normal;
+    margin-top: -15px;
+    margin-left: 5px;
+
+}

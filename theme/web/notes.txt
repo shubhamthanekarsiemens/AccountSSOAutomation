@@ -1,0 +1,119 @@
+battery_Case_assembly_I - Unit1A                               Mfg0BvrPlantEquipment
+battery_case_assembly_I                                        Mfg0BvrWorkarea
+000056/A;1-battery_Case_assembly_I - Unit1A                    Mfg0BvrPlantEquipment
+battery_pack_case                                              BOMLine
+battery_latch                                                  BOMLine
+battery_latch                                                  BOMLine
+battery_latch_spring                                           BOMLine
+battery_latch_spring                                           BOMLine
+OP1 - Assemble Battery Case                                    BOMLine
+battery_case_assembly_I                                        Mfg0BvrWorkarea
+battery_pack_case                                              BOMLine
+battery_latch                                                  BOMLine
+battery_latch                                                  BOMLine
+battery_latch_spring                                           BOMLine
+battery_latch_spring                                           BOMLine
+battery_assembly - Unit2Av                                     Mfg0BvrPlantEquipment
+battery_assembly - Unit2B                                      Mfg0BvrPlantEquipment
+ni_cad_cell_1.2v                                               BOMLine
+ni_cad_cell_1.2v                                               BOMLine
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+battery_spacer
+battery_top_contact                                                                                50128481/A;1-battery_top_contact
+OP2 - Assemble Batteries                                                                           001050/A;1-OP2 - Assemble Batteries
+battery_assembly                                               Mfg0BvrWorkarea                     422/A;1-battery_assembly
+ni_cad_cell_1.2v                                                                                   50128479/A;1-ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+ni_cad_cell_1.2v
+battery_spacer                                                                                    50128480/A;1-battery_spacer
+battery_top_contact                                                                               50128481/A;1-battery_top_contact
+Validate Torque Value{{001051}}                                 GDELine
+Hand Drill                                                     Mfg0BvrPlantResource
+battery_case_assembly_II - Unit3A                               Mfg0BvrPlantEquipment
+battery_case_assembly_II - Unit3B
+423/A;1-battery_case_assembly_II                                      Mfg0BvrWorkarea
+000059/A;1-battery_case_assembly_II - Unit3A                      Mfg0BvrPlantEquipment          000059/A;1-battery_case_assembly_II - Unit3A
+A;1-battery_case_assembly_II - Unit3B                              Mfg0BvrPlantEquipment         000060/A;1-battery_case_assembly_II - Unit3B
+battery_case_assembly_II - Unit3B
+battery_case_top                                                                                 50128482/A;1-battery_case_top
+M3-1.27x16                                                                                       50128483/A;1-M3-1.27x16
+M3-1.27x16                                                                                                 50128483/A;1-M3-1.27x16
+M3-1.27x16
+M3-1.27x16
+M3-1.27x16
+OP3 - Final Assembly                                                                             001051/A;1-OP3 - Final Assembly
+Validate Torque Value{{001051}}                                  GDELine
+Hand Drill                                                                                       000940/A;1-Hand Drill
+battery_case_assembly_II                                                                         423/A;1-battery_case_assembly_II
+battery_case_top                                                                                  50128482/A;1-battery_case_top
+M3-1.27x16                                                                                        50128483/A;1-M3-1.27x16
+M3-1.27x16
+M3-1.27x16
+M3-1.27x16
+M3-1.27x16
+M3-1.27x16
+Battery Assembly Process                                                                          001048/A;1-Battery Assembly Process
+OP1 - Assemble Battery Case                                                                       ECR-000009/A;1-BOPex_Test2
+OP2 - Assemble Batteries                                                                          ECR-000009/A;1-BOPex_Test2
+OP3 - Final Assembly                                                                              ECR-000009/A;1-BOPex_Test2
+
+
+49,50,51
+
+battery_Case_assembly_I - Unit1A
+battery_Case_assembly_I - Unit1A
+battery_assembly - Unit2A
+battery_assembly - Unit2B
+battery_assembly - Unit2A
+battery_assembly - Unit2B
+battery_case_assembly_II - Unit3A
+battery_case_assembly_II - Unit3B
+battery_case_assembly_II - Unit3A
+battery_case_assembly_II - Unit3B
+
+000056/A;1-battery_Case_assembly_I - Unit1A
+000056/A;1-battery_Case_assembly_I - Unit1A
+
+
+
+battery_Case_assembly_I - Unit1A
+battery_Case_assembly_I - Unit1A
+battery_assembly - Unit2A
+battery_assembly - Unit2B
+battery_assembly - Unit2A
+battery_assembly - Unit2B
+battery_case_assembly_II - Unit3A
+battery_case_assembly_II - Unit3B
+battery_case_assembly_II - Unit3A
+battery_case_assembly_II - Unit3B
+battery_pack_packaging - Unit4A
+battery_pack_packaging - Unit4A                     000061/A;1-battery_pack_packaging - Unit4A
+
+
+battery_Case_assembly_I - Unit1A
+battery_case_assembly_I
+battery_Case_assembly_I - Unit1A
+battery_assembly - Unit2A
+battery_assembly - Unit2B

@@ -1,0 +1,120 @@
+.btnMarginCustom{
+	    margin: 5px;
+}
+.mainpage_leftpannel{
+	background-color: #f0f0f0;
+}
+.mainpage_QATable{
+	background-color: #f0f0f0;
+}
+.mainpage_QAname{
+	font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+	font-weight: 600;
+	color: #333333;
+	text-align: left;
+	line-height: 19px;
+}
+.mainpage_QATable tr{
+	border-left: none;
+	border-right: none;
+}
+.QAmainpage_customlistview .mx-table tr{
+	border-left: none;
+	border-right: none;
+}
+.QAmainpage_customlistview .mx-table td{
+	padding:3px 14px 4px 14px;
+}
+.mainpage_QATable tr td .mx-image{
+	margin-top:15px;
+}
+.QAmainpage_customlistview ul li{
+	border-bottom: 1px solid #ffffff;
+	border-top: none;
+}
+.QAmainpage_customlistview ul li:last-child{
+	border-bottom: 1px solid #ffffff;
+}
+.QualityMain__RefSelector__Custom .control-label{
+	text-align: left;
+	width: 6%;
+	font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+  	font-weight: 600;
+  	color: #1e1e1e;
+}
+.QualityMain__RefSelector__Custom .col-sm-9 .mx-compound-control .form-control{
+		width: 368px;
+		min-height: 33px;
+		height: 33px;
+		padding: 8px 2px 8px 8px;
+		border-radius: 2px;
+		border: 1px solid #3296b9;
+		background-color: rgba(255, 255, 255, 0);
+		box-sizing: border-box;
+}
+.QaMain__Filters__Custom{
+	width: auto;
+	height: 24px;
+	background-color: #ffffff;
+	padding: 0px 8px 2px 8px;
+	border-radius: 12px;
+	border: 1px solid #005f87;
+	box-sizing: border-box;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+	font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+	font-weight: 600;
+	color: #005f87;
+	text-align: left;
+	line-height: normal;
+	margin-right: 7px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+.QaMain__Manual9__Custom .mx-name-container2 .mx-name-container16{
+	padding: 20px;
+}
+.QaMain__Manual9__Custom .mx-name-container2 .mx-name-container17{
+	padding: 20px;
+}
+.QaMain__Manual9__Custom .mx-name-container2{
+	margin:50px;
+}
+//tablet
+@media only screen and (min-width:768px) and (max-width:991px){
+	.QualityMain__RefSelector__Custom{
+		margin-top: 10px;
+	}
+}
+
+
+//mobile
+@media only screen and (min-width:250px) and (max-width:767px) {
+	.QAMain__OuterLayout__custom{
+		margin-left:5px;
+	}
+	.QualityMain__RefSelector__Custom{
+		margin-top: 10px;
+	}
+	.QaMain__Manual9__Custom .mx-name-container2 .mx-name-container16{
+		padding: 0px;
+	}
+	.QaMain__Manual9__Custom .mx-name-container2 .mx-name-container17{
+		padding: 0px;
+	}
+	.QaMain__Manual9__Custom .mx-name-container2{
+		margin:0px;
+	}
+	.QualityMain__RefSelector__Custom .control-label{
+		width: 9%;
+		margin-top: 5px;
+	}
+}
+
+@media only screen and (min-width:300px) and (max-width:424px) {
+	.QualityMain__RefSelector__Custom .col-sm-9 .mx-compound-control .form-control{
+		width: 247px;
+		margin-left: 10px;
+	}
+}
+
+

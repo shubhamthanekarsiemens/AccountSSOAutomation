@@ -1,0 +1,88 @@
+.QADashHeading{
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    color: #464646;
+    text-align: left;
+    line-height: normal;
+  font-size:21px;
+}
+
+.QADash_TableHeader{
+  background-color:  #e6e6e6;
+}
+.QADash_TableHeader td{
+  padding: 1px 10px;
+}
+.QADash_customTempGrid .mx-templategrid-item{
+  padding: 0px;
+}
+.QADash_customTempGrid .QADash_QAinnertable td{
+  border-left: none;
+  border-bottom: none;
+}
+
+.QADashboard_Custom_DataGrid2 .table .th{
+  padding: 6px;
+  background-color: #dcdcdc;
+  font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  color: #464646;
+}
+
+.QADashboard_Custom_DataGrid2 .table .table-content .tr .th .column-container .filter .filter-container .filter-selector .filter-selector-content .filter-selector-button{
+	color: white;
+	background-color: #006487;
+}
+
+.QADash_CustomCalenderFilter .btn{  
+  color:white;
+  background-color: #148eba;
+  padding: 11px 15px;
+}
+
+.QADash_CustomCalenderFilter .btn .glyphicon{
+  margin-right: 0px;
+}
+
+.QADashboard_Custom_DataGrid2 .table .column-selector .column-selector-content .column-selector-button{
+  margin:4px 8px;
+}
+
+.QADashboard_Custom_DataGrid2 .table .td{
+  padding: 6px;
+}
+.QADashboard_Custom_DataGrid2 .table .table-content .tr .th .column-selector-content{
+  margin-top: 60px;
+}
+.QADashboard__RefSelector__Custom .control-label{
+  text-align: left;
+	width: 8%;
+	font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+  	font-weight: 600;
+  	color: #1e1e1e;
+}
+.QADashboard__RefSelector__Custom .col-sm-9 .mx-compound-control .form-control{
+  width: 368px;
+  min-height: 33px;
+  height: 33px;
+  padding: 8px 2px 8px 8px;
+  border-radius: 2px;
+  border: 1px solid #3296b9;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+}
+.QADashboard__RefSelector__Custom .col-sm-9{
+  width: 89%;
+}
+.Filter_switch_QA .widget-switch .widget-switch-btn-wrapper{
+  margin-left: 1724px;
+}
+//mobile
+@media only screen and (min-width:250px) and (max-width:767px) 
+{
+  .QADb____Page .mx-placeholder .mx-scrollcontainer .mx-scrollcontainer-center  .mx-scrollcontainer-wrapper .mx-scrollcontainer .mx-scrollcontainer-middle .mx-scrollcontainer-wrapper .mx-placeholder .mx-scrollcontainer .mx-scrollcontainer-center .mx-scrollcontainer-wrapper .mx-scrollcontainer .mx-scrollcontainer-middle .mx-scrollcontainer-wrapper .mx-placeholder .mx-layoutgrid{
+    background-color:white;
+    }
+    .QADb____Page .mx-placeholder .mx-scrollcontainer .mx-scrollcontainer-center  .mx-scrollcontainer-wrapper .mx-scrollcontainer .mx-scrollcontainer-middle .mx-scrollcontainer-wrapper .mx-placeholder .mx-scrollcontainer .mx-scrollcontainer-center .mx-scrollcontainer-wrapper .mx-scrollcontainer{
+      background-color:white;
+      }
+}

@@ -1,0 +1,297 @@
+.Email_template_right_pannel{
+    margin-top: -35px ;
+    width: 80px;
+  height: 1500px;
+  padding: 2px 2px 2px 2px;
+  border-radius: 3px;
+  background-color: #ededed;
+  box-sizing: border-box;
+  margin-right: -150px;
+  margin-left: 375px;
+}
+
+.usermgmtcustomdatagrid{
+
+    .mx-grid-searchbar{
+
+    border:none !important;
+
+  }
+  .mx-grid-search-inputs{
+
+      flex-direction:column ;
+      width:328px;
+  }
+  .mx-grid-search-button
+  {
+      width: 100px;
+      height: 29px;
+      padding: 2px 8px 2px 9px;
+      border-radius: 2px;
+      background-color: #005f87;
+      box-sizing: border-box;
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.6);
+      font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+      font-weight: 600;
+      color: #ffffff;
+      text-align: center;
+      line-height: normal;
+      margin-right: 16px;
+  }
+  .mx-grid-reset-button
+  {
+      width: 100px;
+      height: 29px;
+      padding: 2px 8px 2px 9px;
+      border-radius: 2px;
+      //background-color: #005f87;
+      box-sizing: border-box;
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.6);
+      font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+      font-weight: 600;
+      //color: #ffffff;
+      color: #005f87;
+      text-align: center;
+      line-height: normal;
+      margin-right: 16px;
+  }
+  .mx-grid-search-controls {
+      flex-direction: row ;
+      }
+  }
+
+  .Font_newEdit_template{
+
+    width: 84px;
+    height: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    font-weight: 600;
+    color: #1e1e1e;
+    text-align: left;
+    line-height: normal;
+  }
+
+  .Font-Serverconfigration{
+
+    width: 547px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    color: #464646;
+    text-align: left;
+    line-height: normal;
+  }
+  .config_Input_text_field{
+    width: 326px;
+
+  }
+  .config_text_filed{
+
+    width: 320px;
+  }
+  .Config_info{
+    width: 770px;
+    height: 46px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #66c8de;
+    background-color: #e3faff;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+    margin-left: 0px;
+    width: 1000px;
+}
+
+.config_checkbox{
+    margin-right: 420px;
+    margin-top: 20px;
+
+}
+.checkbox_lable{
+
+    margin-left: 45px;
+    margin-top: -18px
+}
+
+.checkbox_tsl{
+
+    margin-left: -201px;
+    margin-top: -23px;
+  }
+.lable_tsl{
+
+    margin-left: 25px;
+    margin-top: -18px;
+}
+
+.SSL_YS_NO{
+    margin-top: 0px;
+    margin-left: 0px;
+    .mx-radiobuttons .radio input{
+
+        position: relative !important;
+    }
+}
+.SSL_label{
+    margin-left: 10px;
+    margin-top: 20px !important;
+}
+.config_check_box{
+    width: 18px;
+    height: 18px;
+    background-color: #ffffff;
+    width: 42px;
+  height: 16px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333333;
+  text-align: left;
+  line-height: normal;
+  margin-left: 10px;
+  }
+
+  .Config_info_font{
+    margin-left: -25px;
+  }
+
+  .config_Save_btn{
+    width: 100px;
+    height: 29px;
+    padding: 2px 8px 2px 9px;
+    border-radius: 2px;
+    background-color: #005f87;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.6);
+    font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+    margin-right: 16px;
+
+}
+.config_test_btn{
+    width: 100px;
+    height: 29px;
+    padding: 2px 8px 2px 9px;
+    border-radius: 2px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.6);
+    font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    line-height: normal;
+    margin-right: 16px;
+
+}
+.bottom_margin{
+
+    margin-top: 30px;
+
+}
+.Email_tab_menu{
+    .mx-tabcontainer-tabs{
+        font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+        background-color: #ededed !important;
+        margin-top: 10px;
+        margin-left: -25px;
+        margin-right: -25px;
+
+    }
+}
+.email_margin_top{
+
+    margin-top: -35px !important;
+}
+.margin_emailtab_top{
+        margin-bottom: -10px !important;
+}
+.margin_emailtab_top{
+    .mx-tabcontainer-tabs{
+    margin-top: 15px !important;
+    }
+}
+.right_button_background_color{
+
+    background-color: #ededed !important;
+    margin-top: 45px;
+ 
+}
+.emailQueued_alignment{
+
+.mx-tabcontainer.mx-name-tabControl2.mx-tabcontainer-nested{
+
+    margin-top: -14px;
+}
+}
+.edit_button_margin{
+
+    margin-top: 0px !important;
+    
+}
+.Email_template_sent_right_pannel{
+    margin-top: -85px ;
+    width: 80px;
+  height: 1500px;
+  padding: 2px 2px 2px 2px;
+  border-radius: 3px;
+  background-color: #ededed;
+  box-sizing: border-box;
+  margin-right: -150px;
+  margin-left: 375px;
+
+}
+.margin_failed_right_pannel{
+    margin-top: -85px ;
+    width: 80px;
+  height: 1500px;
+  padding: 2px 2px 2px 2px;
+  border-radius: 3px;
+  background-color: #ededed;
+  box-sizing: border-box;
+  margin-right: -150px;
+  margin-left: 375px;
+
+
+}
+.failed_right_button{
+    margin-top: 50px;
+}
+
+// for QA action show hide/button
+.Filter_switch_QA{
+
+    .widget-switch{
+    z-index: 1;
+    margin-bottom: -150px;
+    height: 0px;
+    width: 0px;
+}
+.widget-switch-btn-wrapper{
+    height: 10px !important;    
+    width: 10px !important;
+    margin-left: 5px;
+    margin-bottom: -50px;
+}
+.widget-switch-btn.right{
+    display: none;
+    
+}
+.widget-switch-btn.left{
+    width: 0px !important;
+}
+
+}
+
+.tenantoverview__templategrid.mx-templategrid-item {
+  background-color: blue;
+    }
+
+//End the code for QA switch button.

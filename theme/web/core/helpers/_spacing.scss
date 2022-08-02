@@ -1,0 +1,178 @@
+//
+// DISCLAIMER:
+// Do not change this file because it is core styling.
+// Customizing core files will make updating Atlas much more difficult in the future.
+// To customize any core styling, copy the part you want to customize to styles/web/sass/app/ so the core styling is overwritten.
+//
+
+/* ==========================================================================
+   Spacing
+
+   Spacing classes
+========================================================================== */
+
+
+// Spacing none
+.spacing-inner-none {
+    padding: 0;
+}
+.spacing-inner-top-none {
+    padding-top: 0;
+}
+.spacing-inner-right-none {
+    padding-right: 0;
+}
+.spacing-inner-bottom-none {
+    padding-bottom: 0;
+}
+.spacing-inner-left-none {
+    padding-left: 0;
+}
+
+.spacing-outer-none {
+    margin: 0;
+}
+.spacing-outer-top-none {
+    margin-top: 0;
+}
+.spacing-outer-right-none {
+    margin-right: 0;
+}
+.spacing-outer-bottom-none {
+    margin-bottom: 0;
+}
+.spacing-outer-left-none {
+    margin-left: 0;
+}
+
+// Spacing small
+.spacing-inner {
+    padding: $spacing-small;
+}
+.spacing-inner-top {
+    padding-top: $spacing-small;
+}
+.spacing-inner-right {
+    padding-right: $spacing-small;
+}
+.spacing-inner-bottom {
+    padding-bottom: $spacing-small;
+}
+.spacing-inner-left {
+    padding-left: $spacing-small;
+}
+
+.spacing-outer {
+    margin: $spacing-small;
+}
+.spacing-outer-top {
+    margin-top: $spacing-small;
+}
+.spacing-outer-right {
+    margin-right: $spacing-small;
+}
+.spacing-outer-bottom {
+    margin-bottom: $spacing-small;
+}
+.spacing-outer-left {
+    margin-left: $spacing-small;
+}
+
+// Spacing Medium
+.spacing-inner-medium {
+    @include get-responsive-spacing-medium($type: padding, $direction: all, $is_important: false);
+}
+.spacing-inner-top-medium {
+    @include get-responsive-spacing-medium($type: padding, $direction: top, $is_important: false);
+}
+.spacing-inner-right-medium {
+    @include get-responsive-spacing-medium($type: padding, $direction: right, $is_important: false);
+}
+.spacing-inner-bottom-medium {
+    @include get-responsive-spacing-medium($type: padding, $direction: bottom, $is_important: false);
+}
+.spacing-inner-left-medium {
+    @include get-responsive-spacing-medium($type: padding, $direction: left, $is_important: false);
+}
+
+.spacing-outer-medium {
+    @include get-responsive-spacing-medium($type: margin, $direction: all, $is_important: false);
+}
+.spacing-outer-top-medium {
+    @include get-responsive-spacing-medium($type: margin, $direction: top, $is_important: false);
+}
+.spacing-outer-right-medium {
+    @include get-responsive-spacing-medium($type: margin, $direction: right, $is_important: false);
+}
+.spacing-outer-bottom-medium {
+    @include get-responsive-spacing-medium($type: margin, $direction: bottom, $is_important: false);
+}
+.spacing-outer-left-medium {
+    @include get-responsive-spacing-medium($type: margin, $direction: left, $is_important: false);
+}
+
+// Spacing Large
+.spacing-inner-large {
+    @include get-responsive-spacing-large($type: padding, $direction: all, $is_important: false);
+}
+.spacing-inner-top-large {
+    @include get-responsive-spacing-large($type: padding, $direction: top, $is_important: false);
+}
+.spacing-inner-right-large {
+    @include get-responsive-spacing-large($type: padding, $direction: right, $is_important: false);
+}
+.spacing-inner-bottom-large {
+    @include get-responsive-spacing-large($type: padding, $direction: bottom, $is_important: false);
+}
+.spacing-inner-left-large {
+    @include get-responsive-spacing-large($type: padding, $direction: left, $is_important: false);
+}
+
+.spacing-outer-large {
+    @include get-responsive-spacing-large($type: margin, $direction: all, $is_important: false);
+}
+.spacing-outer-top-large {
+    @include get-responsive-spacing-large($type: margin, $direction: top, $is_important: false);
+}
+.spacing-outer-right-large {
+    @include get-responsive-spacing-large($type: margin, $direction: right, $is_important: false);
+}
+.spacing-outer-bottom-large {
+    @include get-responsive-spacing-large($type: margin, $direction: bottom, $is_important: false);
+}
+.spacing-outer-left-large {
+    @include get-responsive-spacing-large($type: margin, $direction: left, $is_important: false);
+}
+
+// Spacing layouts
+.spacing-inner-layout {
+    @include layout-spacing($type: padding, $direction: all, $device: responsive, $is_important: false);
+}
+.spacing-inner-top-layout {
+    @include layout-spacing($type: padding, $direction: top, $device: responsive, $is_important: false);
+}
+.spacing-inner-right-layout {
+    @include layout-spacing($type: padding, $direction: right, $device: responsive, $is_important: false);
+}
+.spacing-inner-bottom-layout {
+    @include layout-spacing($type: padding, $direction: bottom, $device: responsive, $is_important: false);
+}
+.spacing-inner-left-layout {
+    @include layout-spacing($type: padding, $direction: left, $device: responsive, $is_important: false);
+}
+
+.spacing-outer-layout {
+    @include layout-spacing($type: margin, $direction: all, $device: responsive, $is_important: false);
+}
+.spacing-outer-top-layout {
+    @include layout-spacing($type: margin, $direction: top, $device: responsive, $is_important: false);
+}
+.spacing-outer-right-layout {
+    @include layout-spacing($type: margin, $direction: right, $device: responsive, $is_important: false);
+}
+.spacing-outer-bottom-layout {
+    @include layout-spacing($type: margin, $direction: bottom, $device: responsive, $is_important: false);
+}
+.spacing-outer-left-layout {
+    @include layout-spacing($type: margin, $direction: left, $device: responsive, $is_important: false);
+}

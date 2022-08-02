@@ -1,0 +1,157 @@
+.Data_TableHome{
+
+}
+
+.Data_TableHome {
+  width: 410px;
+  height: 95px;
+  background-color: #ffffff;
+
+  font-family: "Segoe UI", sans-serif;;
+  text-align: left;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  
+}
+.Data_TableHome1 {
+  width: 448px;
+  height: 95px;
+  background-color: #ffffff;
+ 
+  font-family: "Segoe UI", sans-serif;;
+  text-align: left;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+  
+}
+/*
+.Con_1{
+  width: 397px;
+  height: 90px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+
+}
+.Con_1 td{
+  width: 450px;
+  height: 125px;
+  
+}
+.Con_2{
+  width: 428px;
+  height: 90px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.35);
+
+}
+*/
+.Data_TableHome td{
+  border:none;
+  padding: 8px 8px;
+  padding: 0px 4px 0px 0px;
+}
+
+.Data_TableHome1 td{
+  border:none;
+  padding: 1px 2px;
+  padding: 0px 4px 0px 0px;
+}
+.Data_TableHome tr{
+  padding: 0px 4px 1px 6px;
+}
+
+.Data_TableHome1 tr{
+  padding: 0px 4px 1px 6px;
+}
+
+.DispTableHome td{
+  border:none;  
+}
+
+
+.DispTableHome td{
+  border:none;  
+  white-space: nowrap; 
+  width: 90px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  text-align: justify;
+
+  //white-space: nowrap;
+}
+
+.HomeBtn {
+  width: 326px;
+  height: 40px;
+  padding: 4px 8px 4px 8px;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+background-color: #ffffff;
+color: #005f87;
+}
+
+
+.Data_TableHome {
+  width: 400px;
+  height: 90px;
+  background-color: #ffffff;
+  padding: 8px, 2px;
+  font-family: "Segoe UI", sans-serif;
+  text-align: left;
+}
+
+.MainHomeT {
+  border:none;  
+//  column-gap: 1px;
+padding-left: 0px;
+  
+}
+
+.MainHomeT td {
+  border:none;  
+  padding-left: 8px 8px;
+ 
+}
+/*
+.tile_l1 {
+  width: 291px;
+  height: 32px;
+  padding: 2px 2px 2px 0px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  color: #464646;
+  text-align: left;
+  line-height: 16px;
+}
+
+.tile_l2 {
+  width: 130px;
+  height: 20px;
+  padding: 2px 2px 2px 0px;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  font-family: "Segoe UI Semibold", "Segoe UI", sans-serif;
+  font-weight: 600;
+  color: #1e1e1e;
+  text-align: left;
+  line-height: 19px;
+}*/
+
+.trHtable{
+  padding: 3px 0px 0px 0px;
+  
+}
+.tdHtable{
+  padding: 0px 0px 1px 1px;
+   margin-bottom: 0px;
+   margin-top: 0px;
+   word-wrap: break-word;
+   width: 80px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.txtcon{
+  padding: 10px 0px 1px 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}

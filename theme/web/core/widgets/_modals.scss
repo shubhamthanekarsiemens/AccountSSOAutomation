@@ -1,0 +1,51 @@
+//
+// DISCLAIMER:
+// Do not change this file because it is core styling.
+// Customizing core files will make updating Atlas much more difficult in the future.
+// To customize any core styling, copy the part you want to customize to styles/web/sass/app/ so the core styling is overwritten.
+//
+
+/* ==========================================================================
+   Modals
+
+   Default Mendix Modals. Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults
+========================================================================== */
+
+.modal-dialog {
+    .modal-content {
+        border: 1px solid $modal-header-border-color;  
+    }
+
+    .modal-header {
+        padding: 15px;
+        border-bottom-color: $modal-header-border-color;
+        border-radius: 0; // Because of the class .mx-window-active in mxui.css
+        background-color: $modal-header-bg;
+        h4 {
+            margin: 0;
+            color: $modal-header-color;
+        }
+        .close {
+            margin-top: -3px;
+        }
+    }
+    .modal-body {
+        padding: 15px;
+    }
+    .modal-footer {
+        text-align: right;
+        padding: 15px;
+        //border-style: none; check this one
+    }
+}
+
+// Default Mendix Window Modal
+.mx-window {
+    // If popup direct child is a dataview it gets the class mx-window-view
+    .mx-window-body {
+       
+    }
+    .mx-dataview-controls {
+        
+    }
+}

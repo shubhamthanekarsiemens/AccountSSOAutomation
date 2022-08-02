@@ -1,0 +1,15 @@
+{
+    "ServiceOperation": "Manufacturing-2009-10-StructureManagement\/getStructureContextLines",
+    "InputType": "TCmfg.StructureContext",
+    "ResponseType": "TCmfg.StructureContextResponse",
+    "ObjectMapping": "MECollaborationContext=TCmfg.MECollaborationContext;StructureContext=TCmfg.StructureContext;MEProductContext=TCmfg.MEProductContext;MEProcessContext=TCmfg.MEProcessContext;BOMLine=TcConnector.BOMLine",
+    "OperationInput": {
+        "scList": [
+               "$Input"
+               ],
+    },
+    "OperationResponse": {
+	"topLines":"$Response\/TCmfg.toplines",
+	"serviceData": "$Response\/TcConnector.ResponseData"
+	}
+}

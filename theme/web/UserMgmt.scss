@@ -1,0 +1,352 @@
+.AccountsOverviewHeading{
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    color: #464646;
+    text-align: left;
+    line-height: normal;
+  font-size:21px;
+  margin-left: 26px;
+}
+.UserMgmt_datagrid .mx-grid-controlbar{
+  border:none;
+  padding: 0px;
+}
+.UserMgmt_datagrid >.mx-grid-controlbar>.mx-grid-pagingbar{
+  margin-bottom: 0px;
+}
+
+.UserMgmt_datagrid th{
+  background-color: #dcdcdc;
+  box-sizing: border-box;
+  font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  color: #464646;
+  text-align: left;
+  line-height: normal;
+}
+.UserMgmt_datagrid tbody tr td{
+  border: 1px solid #dcdcdc;
+  font-family: 'Segoe UI', sans-serif;
+  color: #464646;
+  padding-top:2px;
+  padding-bottom: 2px;
+}
+.UserMgmt_datagrid tbody .selected td{
+  background-color: #eee;
+}
+// .usermgmtcustomdatagrid .mx-grid-controlbar{
+//   border:none;
+//   padding: 0px;
+// }
+
+// .usermgmtcustomdatagrid>.mx-grid-controlbar>.mx-grid-pagingbar{
+//   margin-bottom: 0px;
+// }
+
+// .usermgmtcustomdatagrid th{
+//   background-color: #dcdcdc;
+//   box-sizing: border-box;
+//   font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+//   font-weight: 700;
+//   color: #464646;
+//   text-align: left;
+//   line-height: normal;
+// }
+
+// .usermgmtcustomdatagrid tbody tr td{
+//   border: 1px solid #dcdcdc;
+//   //background-color: #ffffff;
+//   font-family: 'Segoe UI', sans-serif;
+//   color: #464646;
+//   padding-top:2px;
+//   padding-bottom: 2px;
+// }
+
+
+.accessmgmt__customlist ul li{
+  display:inline-block;
+  vertical-align: top;
+  width: 25%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.usermgmt_customgrpbox .mx-groupbox-header{
+  background-color: #f0f0f0;
+  text-transform: uppercase;
+}
+.usermgmt__custompara{
+  font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+  font-weight: 600;
+  color: #464646;
+}
+.usermgmt__customSaveBtn{
+  width: 100px;
+  height: 29px;
+  padding: 2px 8px 2px 9px;
+  border-radius: 2px;
+  background-color: #005f87;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.6);
+  font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
+  margin-right: 16px;
+}
+.accessmgmt__customlist li:last-child{
+  border-bottom: none;
+}
+.usermgmt_customgrpbox .mx-groupbox-header{
+  padding: 8px 6px;
+}
+.accessmgmt__customlist li{
+  border:none;
+}
+.accessmgmt_customsignoutsymbol .nav .mx-navbar-item .mx-name-menuBar2-0 img{
+  width: 33px;
+}
+.accessmgmt_customsignoutsymbol .navbar-nav .mx-navbar-item .dropdown-menu .mx-navbar-subitem .mx-name-menuBar2-0-0 .glyphicon{
+	display:initial;
+  font-size: 1.2rem;
+}
+.accessmgmt_customsignoutsymbol .navbar-nav .mx-navbar-item .dropdown-menu .mx-navbar-subitem a:hover{
+	color:white;
+}
+.accessmgmt_customsignoutsymbol .mx-navbar-submenu .mx-navbar-subitem a{
+  margin-bottom: 18px;
+  font-size: 15px;
+}
+.FilterConfig____CustomListView .FilterConfig____CustomTable tr {
+  border-left: none;
+  border-right: none;
+}
+
+.FilterConfig____CustomListView li{
+  border-bottom: none;
+  border-top: none;
+}
+.FilterConfig____CustomListView li:last-child{
+  border-bottom: none;
+  border-top: none;
+}
+.FilterConfig____CustomTable td{
+  border: none;
+}
+.FilterConfig___OuterTableCustom td{
+  border:none;
+}
+.FilterConfig___OuterLayoutGrid____Custom h5{
+  padding:8px;
+}
+
+
+.filterconfig___customdatagrid__Overview{
+  width: 50%;
+  margin-left: 2%;
+}
+.filterconfig___customdatagrid__Overview .mx-grid-controlbar{
+  border:none;
+  padding: 0px;
+}
+
+.filterconfig___customdatagrid__Overview>.mx-grid-controlbar>.mx-grid-pagingbar{
+  margin-bottom: 0px;
+}
+
+.filterconfig___customdatagrid__Overview th{
+  background-color: #dcdcdc;
+  box-sizing: border-box;
+  font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  color: #464646;
+  text-align: left;
+  line-height: normal;
+}
+
+.filterconfig___customdatagrid__Overview tbody tr td{
+  border: 1px solid #dcdcdc;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #464646;
+  padding-top:2px;
+  padding-bottom: 2px;
+}
+
+.filterconfig___customdatagrid__Overview>.mx-grid-content table tbody tr td:hover{
+  background-color: #daecf0;
+}
+
+//tablet
+@media only screen and (min-width:768px) and (max-width:991px){
+  .accessmgmt__customlist ul li{
+    width: 50%;
+  }
+  .accessmgmt_customsignoutsymbol .navbar-nav .mx-navbar-item .dropdown-menu .mx-navbar-subitem .mx-name-menuBar2-0-0 .glyphicon{
+    display:initial;
+    font-size: 1.2rem;
+  }
+  .accessmgmt_customsignoutsymbol .navbar-nav .mx-navbar-item .dropdown-menu .mx-navbar-subitem a:hover{
+    color:white;
+  }
+  .accessmgmt_customsignoutsymbol .mx-navbar-submenu .mx-navbar-subitem a{
+    margin-bottom: 18px;
+    font-size: 15px;
+  }
+  .UserMgmt_datagrid{
+    width: 1438px;
+  }
+  .QADashboard_custlayout{
+    overflow-x: scroll;
+  }
+}
+
+//table horizontal scroller special case
+@media only screen and (min-width:992px) and (max-width:1062px){
+  .UserMgmt_datagrid{
+    width: 1438px;
+  }
+  .QADashboard_custlayout{
+    overflow-x: scroll;
+  }
+}
+
+//mobile
+@media only screen and (min-width:250px) and (max-width:767px) {
+  .accessmgmt__customlist ul li{
+    width: 100%;
+  }
+  .mobile_customusersymbol img{
+    width: 33px;
+    height: 33px;
+  }
+  .UserMgmt_datagrid{
+    width: 1438px;
+  }
+  .QADashboard_custlayout{
+    overflow-x: scroll;
+  }
+  .AccountOver____Page .mx-placeholder .mx-scrollcontainer .mx-scrollcontainer-center .mx-scrollcontainer-wrapper .mx-scrollcontainer .mx-scrollcontainer-middle .mx-scrollcontainer-wrapper .mx-placeholder .mx-scrollcontainer .mx-scrollcontainer-middle  .mx-scrollcontainer-wrapper .mx-scrollcontainer .mx-scrollcontainer-center  .mx-scrollcontainer-wrapper .mx-placeholder{
+    background-color:white;
+    }
+    .filterconfig___customdatagrid__Overview{
+      width: 100%;
+      padding-right: 21px;
+    }
+        
+}
+
+
+
+//////////////////////////////////Email Config -> Email Tab///////////////////////////////////////////////////////////////////////////////////
+.emailconfig__DataGrid__Custom .mx-grid-searchbar .mx-grid-search-controls .btn{
+  width: 90px;
+    height: 35px;
+    padding: 0px 0px 1px 0px;
+    border-radius: 2px;
+    border: 1px solid #003951;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%);
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+.emailconfig__DataGrid__Custom .mx-grid-searchbar .mx-grid-search-controls{
+  padding: 8px 16px 0 9px;
+  flex-direction: row;
+}
+.emailconfig__DataGrid__Custom .mx-grid-searchbar{
+  border:none;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.emailconfig__DataGrid__Custom .mx-grid-search-label label{
+  font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+  color: #1e1e1e;
+  text-align: left;
+}
+
+.emailconfig__DataGrid__Custom .mx-grid-searchbar .mx-grid-search-inputs  .mx-grid-search-item .mx-grid-search-input input{
+  width: 372px;
+  height: 35px;
+  padding: 2px 2px 2px 8px;
+  border-radius: 2px;
+  border: 1px solid #969696;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.emailconfig__DataGrid__Custom .mx-grid-searchbar .mx-grid-search-inputs  .mx-grid-search-item .mx-grid-search-input select{
+  width: 372px;
+  min-height: 35px;
+  height: 35px;
+  padding: 2px 2px 2px 8px;
+  border-radius: 2px;
+  border: 1px solid #969696;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.emailconfig__DataGrid__Custom .mx-grid-searchbar .mx-grid-search-inputs{
+  flex-direction: column;
+}
+
+.emailconfig__DataGrid__Custom .mx-grid-controlbar{
+  border:none;
+}
+.emailconfig__DataGrid__Custom td{
+  border-right-color: #dcdcdc;
+  padding: 2px 2px 2px 48px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  color: #464646;
+  text-align: left;
+  line-height: normal;
+}
+.emailconfig__DataGrid__Custom th{
+  padding: 0px 0px 0px 40px;
+  background-color: #dcdcdc;
+  box-sizing: border-box;
+  font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  color: #464646;
+  text-align: left;
+  line-height: normal;
+}
+
+.emailconfig__layoutrightpanel__custom{
+  height: 565px;
+    background-color: #ededed;
+    width: 77px;
+    margin-left: 71px;
+}
+.emailconfig__DataGrid__Custom .mx-grid-searchbar .mx-grid-search-inputs .mx-grid-search-item .mx-grid-search-input{
+  display: inline-block;
+}
+
+.emailconfig__DataGrid__Custom .mx-grid-searchbar .mx-grid-search-inputs .mx-grid-search-item .mx-grid-search-input .mx-compound-control button{
+  padding: 5px 12px;
+  margin-left: 10px;
+}
+.emailconfig__DataGrid__Custom .mx-grid-controlbar .mx-grid-toolbar button{
+  width: 90px;
+  height: 35px;
+  padding: 0px 0px 1px 0px;
+  border-radius: 2px;
+  border: 1px solid #003951;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%);
+  font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+  text-align: center;
+  line-height: normal;
+  margin-bottom: 15px;
+  margin-right: 5px;
+}
+.emailconfig__DataGrid__Custom .mx-grid-controlbar .mx-grid-toolbar{
+  padding-top: 10px;
+}

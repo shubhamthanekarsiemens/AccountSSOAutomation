@@ -1,0 +1,333 @@
+.Siemens__ModalPopup__Custom .modal-content .modal-header{
+    padding-left: 16px;
+    height:48px;
+}
+.Simens__ModalPopup__Custom .modal-content .modal-header h4{
+    font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    font-weight: 700;
+}
+.AccountNew__Dataview__Custom{
+    margin: 2%;
+}
+.AccountNew__Dataview__Custom label{
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    color: #1e1e1e;
+    text-align: left;
+}
+.AccountNew__Dataview__Custom input{
+    height: 32px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #8C8C8C;
+}
+.AccountNew__Dataview__Custom input:hover{
+    border-radius: 2px;
+}
+.AccountNew__Dataview__Custom input:active{
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 2px #3296b9;
+}
+.AccountNew__Dataview__Custom input:focus{
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 2px #3296b9;
+}
+
+/////////////SidebarPopup/////////////////////////
+.sidebarpopup__Dataview__Custom label{
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    color: #1e1e1e;
+    text-align: left;
+}
+.sidebarpopup__Dataview__Custom input{
+    height: 32px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 1px #8C8C8C;
+}
+.sidebarpopup__Dataview__Custom input:hover{
+    border-radius: 2px;
+}
+.sidebarpopup__Dataview__Custom input:active{
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 2px #3296b9;
+}
+.sidebarpopup__Dataview__Custom input:focus{
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: solid 2px #3296b9;
+}
+/// /////////////////////////
+
+
+
+.AccountNew__dropdown__CustomDiv .mx-name-referenceSelector1 .mx-compound-control .form-control{
+    min-height: 40px;
+    height:32px;
+    padding: 0px 0px 0px 1px;
+    border-radius: 2px;
+    border: 1px solid #969696;
+    box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%);
+}
+.AccountNew__dropdown__CustomDiv .mx-name-referenceSelector2 .mx-compound-control .form-control{
+    min-height: 40px;
+    height:32px;
+    padding: 0px 0px 0px 1px;
+    border-radius: 2px;
+    border: 1px solid #969696;
+    box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%);
+} 
+.AccountNew__Dataview__Custom .mx-dataview-content .form-group div{
+    padding-left: 0px;
+}
+.AccountNew__checkbox__CustomDiv{
+    margin-bottom: 19px;
+}
+.AccountNew__checkbox__CustomDiv .mx-name-checkBox1 .col-sm-offset-3{
+    margin-left: 4%;
+}
+.AccountNew__checkbox__CustomDiv .mx-name-checkBox2 .col-sm-offset-3{
+    margin-left: 4%;
+}
+.AccountNew__Buttons__Custom{
+        width: 90px;
+        height: 35px;
+        padding: 0px 0px 1px 0px;
+        border-radius: 2px;
+        border: 1px solid #003951;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+        font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+        text-align: center;
+        line-height: normal;
+        margin-bottom: 15px;
+}
+.AccountNew__Save{
+    background-color: #005f87 !important;
+    color: #ffffff !important;
+}
+.AccountNew__Save:hover{
+    background-color: #005f87;
+    color: #ffffff;
+}
+.AccountNew__Cancel{
+    background-color: #ffffff;
+    color: #005f87;
+    margin-right: 10px;
+}
+.AccountNew_DeleteBtn_confirmation{
+    margin-top: 5%;
+}
+.AccountNew__QA__Complete{
+    width: 120px;
+    height: 35px;
+    padding: 0px 0px 1px 0px;
+    border-radius: 2px;
+    border: 1px solid #003951;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    text-align: center;
+    line-height: normal;
+    margin-bottom: 15px;
+    background-color: #005f87;
+    color: #ffffff;
+}
+.AccountNew__QA__Complete:hover{
+background-color: #005f87;
+color: #ffffff;
+}
+.btndisabled {
+    opacity: 0.65; 
+    cursor: not-allowed;
+}
+
+.CompanyNew__Statusdropdown__CustomDiv .mx-name-dropDown1 .form-control{
+    min-height: 32px;
+    height:32px;
+    padding: 0px 0px 0px 1px;
+    border-radius: 2px;
+    border: 1px solid #969696;
+    box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%);
+}
+//forgot password
+.ForgotPWD__dataview__Custom{
+    padding:10px;
+    padding-top: 20px;
+}
+
+//class sidebarpopup for opening popup from right side.
+.sidebar-popup {
+    position: fixed;
+    top:5% !important;
+}
+
+
+.sidebar-popup {
+    left:100% !important;
+    height:94% !important;
+    transition: transform 1s ease-in-out !important;
+    transform: translateX(100%);
+}
+
+.sidebar-popup.mx-window-active {
+    right: -116px !important;
+    left: auto !important;
+    transform: translateX(0);
+}
+
+.sidebar-popup.mx-window-active:not([data-focus-capturing="modal"]) {
+    left: 100% !important;
+    transform: translateX(100%);
+}
+
+//Profile Section popup page css
+.Left_sidebar_popup_userProfile{
+    box-shadow: inset 6px 0 10px rgb(0 0 0 / 25%);
+    top: 0 !important;
+    left: 64px !important;
+    bottom: 0 !important;
+    margin: 0 8px 0 0 !important;
+    padding: 0px 0 0 0 !important;
+    width: 200px !important;
+    max-width: 200px !important;
+    min-width: 200px !important;
+    display: block !important;
+    overflow: hidden !important;
+    background-color: #003750 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    float: none !important;
+    z-index: 102 !important;
+    height: 100% !important;
+}
+.Left_sidebar_popup_userProfile .modal-content{
+    width: 200px !important;
+    max-width: 200px !important;
+    min-width: 200px !important;
+}
+.Left_sidebar_popup_userProfile .modal-header{
+    color:#003750;
+    background-color: #003750;
+}
+
+.Left_sidebar_popup_userProfile .modal-content .modal-body{
+    color:#c8f5ff;
+    background-color: #003750;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 5%;
+}
+.UserAvatarImg{
+    background-color: #f0f0f0;
+    border-radius: 24%;
+    max-height: 96px;
+    max-width: 96px;
+    border: 2px solid #c8f5ff;
+}
+.ChangePicDropdown .btn{
+    padding:1px 1px;
+    color:#c8f5ff;
+    border:none;
+}
+.ChangePicDropdown .glyphicon{
+    background: none;
+    color:#c8f5ff;
+}
+.ChangePicDropdown .btn:hover{
+    color:#c8f5ff;
+    background: none;
+    border:none;
+}
+.ChangePicDropdown .btn:focus{
+    color:#c8f5ff;
+    background: none;
+    border:none;
+}
+.ChangePicDropdown .btn:active{
+    color:#c8f5ff;
+    background: none;
+    border:none;
+}
+.ChangePicDropdown .caret{
+    display: none;
+}
+.ChangePicDropdown .dropdown-menu .mx-name-container8{
+    text-decoration: none;
+}
+.ChangePicDropdown .dropdown-menu .mx-name-container8 a:hover{
+    text-decoration: none;
+}
+.ChangePicDropdown .dropdown-menu .mx-name-container9{
+    text-decoration: none;
+}
+.ChangePicDropdown .dropdown-menu .mx-name-container9 a:hover{
+    text-decoration: none;
+}
+.BrowseImageToUpload{
+    margin-top: 3%;
+}
+.BrowseImageToUpload{
+    .mx-compound-control{
+        //width: 350px;
+        .form-control{
+            min-height: 35px !important;
+            height: 35px;
+            padding: 0px;
+            font-family: "Segoe UI Regular", "Segoe UI", sans-serif;
+        }
+    }
+}
+.BrowseImageToUpload .mx-compound-control .btn{
+    width: 90px;
+    height: 35px;
+    padding: 0px 0px 1px 0px;
+    border-radius: 2px;
+    margin-right: 2px;
+    border: 1px solid #003951;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px 0px rgb(0 0 0 / 30%);
+    font-family: "Segoe UI Semibold", "Segoe UI Regular", "Segoe UI", sans-serif;
+    text-align: center;
+    line-height: normal;
+    background-color: #005f87 !important;
+    color: #ffffff !important;
+}
+.Profile_Signout_Btn{
+    color:#c8f5ff;
+    display: inline-block;
+    font-size: .75rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Profile_Signout_Btn:hover{
+    text-decoration: none !important;
+    color:#c8f5ff;
+}
+.Profile_Signout_Btn:active{
+    text-decoration: none !important;
+    color:#c8f5ff;
+}
+.Profile_Signout_Btn:focus{
+    text-decoration: none !important;
+    color:#c8f5ff;
+}
+.Profile_Signout_Btn img{
+    vertical-align: middle;
+}
+.Profile_Menu_UserLogo{
+    max-width: 32px;
+    max-height: 32px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    margin-bottom: 34%;
+}
+.CustomRadioBtns input[type=radio]:checked:before{
+    top: 8px;
+    left: 4px;
+}
+
+

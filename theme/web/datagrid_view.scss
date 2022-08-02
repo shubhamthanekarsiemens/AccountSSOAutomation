@@ -1,0 +1,55 @@
+.datagride_table{
+    width: 552px;
+    height: 22px;
+    padding: 2px 2px 2px 2px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+    color: #1e1e1e;
+    text-align: left;
+    line-height: 23px;
+    font-weight: 500;
+    font-size: 19px;
+}
+.datagride_table .mx-grid-controlbar {
+      border:none;
+      padding: 0px;
+    
+    }
+    
+    .datagride_table >.mx-grid-controlbar>.mx-grid-pagingbar{
+    
+      margin-bottom: 0px;
+    
+    }
+    
+    
+    
+    .datagride_table th{
+    
+      background-color: #dcdcdc;
+      box-sizing: border-box;
+      font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+      font-weight: 700;
+      color: #464646;
+      text-align: left;
+      line-height: normal;
+    
+    }
+    
+    .datagride_table tbody tr td{
+      border: 1px solid #dcdcdc;
+      font-family: 'Segoe UI', sans-serif;
+      color: #464646;
+      padding-top:2px;
+      padding-bottom: 2px;
+    
+    }
+    
+    .datagride_table tbody .selected td{
+    
+      background-color: #eee;
+    
+    }
+    
+    

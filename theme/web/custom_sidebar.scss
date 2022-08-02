@@ -1,0 +1,112 @@
+.sidebar-popup {
+    position: fixed;
+    top:10% !important;
+}
+
+.val-header{
+    font-size: 21px !important;
+    text-transform: uppercase;
+}
+.sidebar-popup {
+    left:100% !important;
+    height:85% !important;
+    transition: transform .2s ease-in-out !important;
+    transform: translateX(100%);
+}
+
+.sidebar-popup.mx-window-active {
+    right: 0% !important;
+    left: auto !important;
+    transform: translateX(0);
+}
+
+.sidebar-popup.mx-window-active:not([data-focus-capturing="modal"]) {
+    left: 100% !important;
+    transform: translateX(100%);
+}
+
+
+
+
+
+.sidebar-popup .mx-resizer {
+    display: none;
+}
+
+ .modal-dialog .modal-content{
+     width:70%;
+     position: initial;
+}
+
+
+
+.margin-bottom-15{
+    margin-bottom: 5px !important;
+}
+
+.modal-dialog .modal-header{
+    padding: 6px;
+    h4{
+        font-size: 17px;
+    }
+}
+
+val-btn-save{
+    color:  #005f87 !important;
+    background-color:white !important;
+    border-radius: 0px !important;
+    border: 2px solid #005f87 !important;
+    width: 90px;
+    height: 29px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 0.5;
+}
+
+.validation-input{
+.form-control{
+    height: 35px;
+    
+    min-height: 35px !important;
+    font-size: 12px !important;
+    padding: 0px !important;
+    padding-left:5px !important;
+
+}
+}
+
+
+	
+
+
+.mx-listview-searchbar .btn, .mx-datepicker .btn{
+    top: -5px !important;
+}
+
+  
+
+  
+  
+.log-rows
+{
+ 
+ border: 1px solid #dcdcdc;
+   //background-color: #ffffff;
+  box-sizing: border-box;
+
+   font-family: 'Segoe UI Regular', 'Segoe UI', sans-serif;
+  color: #464646;
+  text-align: left;
+  line-height: normal;
+}
+
+.logs-header{
+  background-color: #dcdcdc;
+  box-sizing: border-box;
+ font-family: 'Segoe UI Bold', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  color: #464646;
+  text-align: left;
+line-height: normal;
+}
+

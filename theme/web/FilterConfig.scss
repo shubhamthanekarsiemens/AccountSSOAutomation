@@ -1,0 +1,110 @@
+.FilterOverviewHeading{
+    font-family: 'Segoe UI Semibold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+    color: #464646;
+    text-align: left;
+    line-height: normal;
+  font-size:21px;
+  margin-left: 26px;
+}
+
+.FilterConfig____CustomListView .FilterConfig____CustomTable tr {
+  border-left: none;
+  border-right: none;
+}
+
+.FilterConfig____CustomListView li{
+  border-bottom: none;
+  border-top: none;
+}
+.FilterConfig____CustomListView li:last-child{
+  border-bottom: none;
+  border-top: none;
+}
+.FilterConfig____CustomTable td{
+  border: none;
+}
+.FilterConfig___OuterTableCustom td{
+  border:none;
+}
+.FilterConfig___OuterLayoutGrid____Custom h5{
+  padding:8px;
+}
+
+
+.filterconfig___customdatagrid__Overview{
+  width: 50%;
+  margin-left: 2%;
+}
+.filterconfig___customdatagrid__Overview .mx-grid-controlbar{
+  border:none;
+  padding: 0px;
+}
+
+.filterconfig___customdatagrid__Overview>.mx-grid-controlbar>.mx-grid-pagingbar{
+  margin-bottom: 0px;
+}
+
+.filterconfig___customdatagrid__Overview th{
+  background-color: #dcdcdc;
+  box-sizing: border-box;
+  font-family: 'Segoe UI Bold', 'Segoe UI Regular', 'Segoe UI', sans-serif;
+  font-weight: 700;
+  color: #464646;
+  text-align: left;
+  line-height: normal;
+}
+
+.filterconfig___customdatagrid__Overview tbody tr td{
+  border: 1px solid #dcdcdc;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #464646;
+  padding-top:2px;
+  padding-bottom: 2px;
+}
+
+.filterconfig___customdatagrid__Overview>.mx-grid-content table tbody tr td:hover{
+  background-color: #daecf0;
+}
+
+//tablet
+@media only screen and (min-width:768px) and (max-width:991px){
+  .accessmgmt__customlist ul li{
+    width: 50%;
+  }
+  .accessmgmt_customsignoutsymbol .navbar-nav .mx-navbar-item .dropdown-menu .mx-navbar-subitem .mx-name-menuBar2-0-0 .glyphicon{
+    display:initial;
+    font-size: 1.2rem;
+  }
+  .accessmgmt_customsignoutsymbol .navbar-nav .mx-navbar-item .dropdown-menu .mx-navbar-subitem a:hover{
+    color:white;
+  }
+  .accessmgmt_customsignoutsymbol .mx-navbar-submenu .mx-navbar-subitem a{
+    margin-bottom: 18px;
+    font-size: 15px;
+  }
+  .usermgmtcustomdatagrid{
+    width: 1438px;
+  }
+  .QADashboard_custlayout{
+    overflow-x: scroll;
+  }
+}
+
+//table horizontal scroller special case
+@media only screen and (min-width:992px) and (max-width:1062px){
+  
+  .QADashboard_custlayout{
+    overflow-x: scroll;
+  }
+}
+
+//mobile
+@media only screen and (min-width:250px) and (max-width:767px) {
+  
+    .filterconfig___customdatagrid__Overview{
+      width: 100%;
+      padding-right: 21px;
+    }
+        
+}
